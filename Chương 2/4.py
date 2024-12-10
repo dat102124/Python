@@ -6,7 +6,7 @@ def ptb1(a, b, c):
     elif (a < 0):
         x = -b / a
         return "x <", x
-    elif (a == 0 and b == 0):
+    elif b == 0:
         return "VSN"
     else:
         return "VN"
